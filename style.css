@@ -1,0 +1,26 @@
+html, body {
+  margin: 0; padding: 0;
+  background: linear-gradient(60deg, rgba(31,98,255,1) 0%, rgba(240,56,255,1) 100%);
+  font-family: 'Cabin', sans-serif;
+  color: #F3DE20;
+}
+
+#main {
+  display: flex;
+  justify-content: center; align-items: center;
+}
+
+#canvas-cont {
+  width: 100vw; height: 100vh;
+}
+
+#header-main {
+  margin: 0;
+  font-size: 60px; font-weight: 500;
+  position: absolute;
+  pointer-events: none;
+}
+
+canvas {
+  display: block;
+}
